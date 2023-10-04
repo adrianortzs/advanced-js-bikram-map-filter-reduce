@@ -125,7 +125,7 @@ let result7 = numeros3.reduce(function(acc, num) {
 const sentenceElements = [
     'Me',
     'llamo',
-    'Alex',
+    'Adrian',
     'y',
     'quiero',
     'sentir',
@@ -170,7 +170,7 @@ const sentenceElements = [
     }
   ]; 
 
-  
+
 let result9 = books.filter(function(book){
     return book.category == "code";
 })  .map(function(book){
